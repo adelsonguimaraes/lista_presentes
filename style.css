@@ -13,7 +13,7 @@ body {
 }
 
 .box {
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     margin: 9px;
     padding: 20px 0;
     display: flex;
