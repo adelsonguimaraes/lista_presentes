@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Presentes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>Lista de presentes</h1>
+
+        <h2>Raquel & Adelson</h2>
+
+        <div class="lojas">
+            <h3>Lojas Sugeridas</h3>
+
+            <ul class="lista-lojas">
+                <!-- carregar imagens por js -->
+            </ul>
+        </div>
+
+        <div class="categorias">
+            <h3>Categorias</h3>
+
+            <ul>
+                <li>
+                    <button type="button" class="active" onclick="listarPorCategoria('todos', event)">Todos</button>
+                </li>
+                <li>
+                    <button type="button" id="decoracao" onclick="listarPorCategoria('decoracao', event)">Decor</button>
+                </li>
+                <li>
+                    <button type="button" onclick="listarPorCategoria('cama_mesa_banho', event)">Cama</button>
+                </li>
+                <li>
+                    <button type="button" onclick="listarPorCategoria('loucas', event)">Louças</button>
+                </li>
+                <li>
+                    <button type="button" onclick="listarPorCategoria('eletrodomestico', event)">Eletro</button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="cota">
+            Lista atualizada em 28/05/2024
+        </div>
+
+        <div class="itens">
+            <ul class="list-items">
+                <!-- carregar itens por js -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

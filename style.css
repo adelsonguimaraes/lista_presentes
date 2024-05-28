@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(https://wallpapercave.com/wp/wp10061078.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.box {
+    backdrop-filter: blur(5px);
+    margin: 9px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4f4f4f36;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+div.lojas {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+ul.lista-lojas {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+ul.lista-lojas > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.lista-lojas img {
+    width: 120px;
+}
+
+div.cota {
+    margin: 15px;
+}
+
+div.itens {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.list-items {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul.list-items > li {
+    display: list-item;
+}
+
+ul.list-items > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+div.card {
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    -webkit-box-shadow: 10px 10px 19px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px -7px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid #a5a3a3;
+}
+
+div.card:hover {
+    transform: scale(1.02);
+}
+
+div.name {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #d6d6d66d;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+div.image {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+div.image > img {
+    max-width: 100%;
+    width: 60%;
+    height: auto
+}
+
+div.rodape {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+div.rodape > img {
+    height: 50px;
+    width: 100px;
+}
+
+div.rodape > span.preco {
+    height: 20px;
+    font-weight: 600;
+}
+
+div.categorias {
+    text-align: center;
+    margin: 15px 0;
+}
+
+div.categorias > ul {
+    list-style: none;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+div.categorias button {
+    background-color: rgb(237, 238, 238);
+    border: 1px solid rgb(138, 181, 200);
+    color: rgb(51, 73, 82);
+    width: 100px;
+    padding: 10px;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 19px -7px rgba(0, 0, 0, 0.562);
+    -moz-box-shadow: 10px 10px 19px -7px rgba(0, 0, 0, 0.569);
+    box-shadow: 10px 10px 19px -7px rgba(0, 0, 0, 0.547);
+}
+
+div.categorias button:hover {
+    background-color: rgb(138, 194, 219);
+}
+
+button.active {
+    background-color: rgb(2 146 209) !important;
+    color: #d9f3ff !important;
+}
+
+@media screen and (max-width:1300px) {
+    ul.lista-lojas {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.itens {
+        width: 95%;
+    }
+
+    ul.list-items {
+        width: min-content;
+    }
+}
