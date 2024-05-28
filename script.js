@@ -7,6 +7,25 @@ const lojas = {
 
 let produtos = [];
 
+function copiarCodigoPix (event) {
+    const input = document.createElement('textarea');
+    input.value = "00020126630014BR.GOV.BCB.PIX0111986659522680226Casamento Raquel & Adelson520400005303986540550.005802BR5925Adelson Guimaraes Monteir6009SAO PAULO62140510QPAMyRPUkj6304F84B";
+    document.body.appendChild(input);
+
+    input.select();
+    input.setSelectionRange(0, 99999);
+
+    document.execCommand('copy');
+
+    document.body.removeChild(input);
+
+    event.target.textContent = "Código Pix copiado 👍"
+
+    setTimeout(() => {
+        event.target.textContent = "Clique para copiar código Pix 📱"
+    }, 2000);
+}
+
 function listarLojas () {
     const listaLojas = document.querySelector('ul.lista-lojas');
     Object.values(lojas).forEach(loja => {

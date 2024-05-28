@@ -195,6 +195,40 @@ button.active {
     color: #d9f3ff !important;
 }
 
+div.pix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+div.pix > img {
+    max-width: 100%;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 19px -7px rgba(0, 0, 0, 0.562);
+    -moz-box-shadow: 10px 10px 19px -7px rgba(0, 0, 0, 0.569);
+    box-shadow: 10px 10px 19px -7px rgba(0, 0, 0, 0.547);
+}
+
+div.pix > button {
+    padding: 10px;
+    width: 90%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #0292d1;
+    color: #fff;
+    border: 1px solid #037db1;
+    border-radius: 2px;
+}
+
+div.pix > button:hover {
+    background-color: #36aee2;
+}
+
 @media screen and (max-width:1300px) {
     ul.lista-lojas {
         flex-wrap: wrap;
