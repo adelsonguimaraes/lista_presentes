@@ -45,10 +45,10 @@ function listarPorCategoria (categoria, event) {
 
     ul.innerHTML = '';
 
-    let filtrados = produtos;
+    let filtrados = produtos.filter(item => item.aberto);
 
     if (categoria !== 'todos') {
-        filtrados = produtos.filter(item => item.categoria === categoria);
+        filtrados = filtrados.filter(item => item.categoria === categoria);
     }
 
     if (event) {
