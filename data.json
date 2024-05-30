@@ -6,7 +6,8 @@
         "loja": "havan",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 39,99",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Toalha De Banho 100% Algodão Georgia Karsten - Cinza",
@@ -15,7 +16,8 @@
         "loja": "havan",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 59,99",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Toalha De Banho Dohler Felpudo Jacquard",
@@ -24,7 +26,8 @@
         "loja": "bemol",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 89,00",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Jogo De Cama Casal Percal 200 Fios Buona Fortuna 4 Pçs - Cinza/Chumbo",
@@ -33,7 +36,8 @@
         "loja": "havan",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 249,99",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Jogo De Cama Casal Microfibra 150 Fios Havan Casa 4 Peças - Rideau Geo",
@@ -42,7 +46,8 @@
         "loja": "havan",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 79,99",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Jogo Lençol Percal 400 Fios Ponto Palito Cama Casal 4 peças (Cinza)",
@@ -51,7 +56,8 @@
         "loja": "amazon",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 163,90",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Kit 2 Travesseiros TRP Imports Select Luxo Fibras Importada E Antialérgica",
@@ -60,7 +66,8 @@
         "loja": "amazon",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 89,99",
-        "aberto": true
+        "aberto": true,
+        "favorito": true
     },
     {
         "name": "Travesseiro Pelmex Soft Plus Espuma 40x60cm Branco",
@@ -69,7 +76,8 @@
         "loja": "bemol",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 46,00",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Capa Fronha Protetora Travesseiro Impermeável",
@@ -78,7 +86,8 @@
         "loja": "amazon",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 77,90",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Kit Com 3 Tapetes Mágicos Antiderrapante Ultra Absorvente",
@@ -87,7 +96,8 @@
         "loja": "amazon",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 99,90",
-        "aberto": true
+        "aberto": true,
+        "favorito": true
     },
     {
         "name": "Tapete Sala Quarto Mesclado 1,46x2,00 Antiderrapante (Cru/Preto)",
@@ -96,7 +106,8 @@
         "loja": "amazon",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 124,61",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Tapete Infantil 80X125 Cm Havan Casa - Game",
@@ -105,7 +116,8 @@
         "loja": "amazon",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 99,99",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Tapete Lisboa 1,40X2,00M Havan - Cinza",
@@ -114,7 +126,8 @@
         "loja": "havan",
         "categoria": "cama_mesa_banho",
         "preco": "R$ 699,90",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Aparelho de Jantar Duralex Opaline Pétala 16pcs - Nadir 1842",
@@ -123,7 +136,8 @@
         "loja": "amazon",
         "categoria": "loucas",
         "preco": "R$ 130,44",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Aparelho de Jantar Duralex Opaline Pétala 16pcs - Nadir 1842",
@@ -132,7 +146,8 @@
         "loja": "havan",
         "categoria": "loucas",
         "preco": "R$ 149,99",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Faqueiro em Aço Inox Búzios com 24 Peças",
@@ -141,7 +156,8 @@
         "loja": "amazon",
         "categoria": "loucas",
         "preco": "R$ 75,41",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Jogo Panela Califórnia Tramontina 5Pçs - Grafite",
@@ -150,7 +166,8 @@
         "loja": "havan",
         "categoria": "loucas",
         "preco": "R$ 299,99",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Jogo de Panelas 10 Peças Cereja Antiaderente c/Tampa",
@@ -159,7 +176,8 @@
         "loja": "amazon",
         "categoria": "loucas",
         "preco": "R$ 199,50",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Panela 16 Magnific Grafite Antiaderente Panelux",
@@ -168,7 +186,8 @@
         "loja": "amazon",
         "categoria": "loucas",
         "preco": "R$ 49,00",
-        "aberto": true
+        "aberto": true,
+        "favorito": true
     },
     {
         "name": "Panela Tramontina Turim Alumínio Com Revestimento Antiaderente",
@@ -177,7 +196,8 @@
         "loja": "bemol",
         "categoria": "loucas",
         "preco": "R$ 69,00",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Caçarola Tramontina Turim Alumínio Com Revestimento Antiaderente",
@@ -186,7 +206,8 @@
         "loja": "bemol",
         "categoria": "loucas",
         "preco": "R$ 99,00",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Ventilador de Mesa MONDIAL 110V, 30cm, 6 pás, Super Power - VSP-30-B",
@@ -195,7 +216,8 @@
         "loja": "amazon",
         "categoria": "eletrodomestico",
         "preco": "R$ 105,78",
-        "aberto": true
+        "aberto": true,
+        "favorito": true
     },
     {
         "name": "Ventilador De Mesa Mondial 30cm Super Power 127V Preto VSP-30-B",
@@ -204,7 +226,8 @@
         "loja": "bemol",
         "categoria": "eletrodomestico",
         "preco": "R$ 188,00",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Ferro de Passar a Seco, Mondial, Preto, 1000W, 220V - FSN-55-B",
@@ -213,7 +236,8 @@
         "loja": "amazon",
         "categoria": "eletrodomestico",
         "preco": "R$ 69,52",
-        "aberto": true
+        "aberto": true,
+        "favorito": true
     },
     {
         "name": "Ferro a Vapor, Mondial, Azul/Branco, 1200W, 110V - F-32",
@@ -222,7 +246,8 @@
         "loja": "amazon",
         "categoria": "eletrodomestico",
         "preco": "R$ 100,89",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Ferro De Passar Roupa A Seco Mondial FSN-55-B 127V Preto",
@@ -231,7 +256,8 @@
         "loja": "bemol",
         "categoria": "eletrodomestico",
         "preco": "R$ 134,00",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Ferro de Passar a Vapor Oster Antiaderente Verde",
@@ -240,7 +266,8 @@
         "loja": "havan",
         "categoria": "eletrodomestico",
         "preco": "R$ 99,99",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Sanduicheira Fast Grill e Sandwich, Mondial, Preto, 750W, 110V - S-12",
@@ -249,7 +276,8 @@
         "loja": "amazon",
         "categoria": "eletrodomestico",
         "preco": "R$ 79,90",
-        "aberto": true
+        "aberto": true,
+        "favorito": true
     },
     {
         "name": "Sanduicheira Fast Grill & Sandwich Mondial S-12 750 W",
@@ -258,7 +286,8 @@
         "loja": "bemol",
         "categoria": "eletrodomestico",
         "preco": "R$ 144,00",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Cafeteira Moka Italiana Alumínio",
@@ -267,7 +296,8 @@
         "loja": "amazon",
         "categoria": "loucas",
         "preco": "R$ 83,90",
-        "aberto": true
+        "aberto": true,
+        "favorito": true
     },
     {
         "name": "Cafeteira Italiana Moka Mimo 300 Ml 297 Inox",
@@ -276,7 +306,8 @@
         "loja": "bemol",
         "categoria": "loucas",
         "preco": "R$ 128,00",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Electrolux - Kit Potes de Plástico Hermético, 10 unidades",
@@ -285,7 +316,8 @@
         "loja": "amazon",
         "categoria": "loucas",
         "preco": "R$ 113,98",
-        "aberto": true
+        "aberto": true,
+        "favorito": true
     },
     {
         "name": "Echo Pop | Smart speaker compacto com som envolvente e Alexa | Cor Preta",
@@ -294,7 +326,8 @@
         "loja": "amazon",
         "categoria": "decoracao",
         "preco": "R$ 314,10",
-        "aberto": false
+        "aberto": false,
+        "favorito": false
     },
     {
         "name": "Relógio despertador digital, Relógio LED para quarto",
@@ -303,7 +336,8 @@
         "loja": "amazon",
         "categoria": "decoracao",
         "preco": "R$ 48,00",
-        "aberto": true
+        "aberto": true,
+        "favorito": true
     },
     {
         "name": "Luminaria 3D Touch Lua Cheia Abajur LED Decoracao USB RGB",
@@ -312,7 +346,8 @@
         "loja": "amazon",
         "categoria": "decoracao",
         "preco": "R$ 63,00",
-        "aberto": false
+        "aberto": false,
+        "favorito": false
     },
     {
         "name": "Abajur De Cerâmica Pottery 32Cm Taschibra - Preto",
@@ -321,7 +356,8 @@
         "loja": "havan",
         "categoria": "decoracao",
         "preco": "R$ 99,99",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Mesa De Cabeceira 1 mesa Estilo Retrô Pés Em Madeira Maciça Grécia Branco (Branco)",
@@ -330,7 +366,8 @@
         "loja": "amazon",
         "categoria": "decoracao",
         "preco": "R$ 134,85",
-        "aberto": true
+        "aberto": true,
+        "favorito": true
     },
     {
         "name": "Conjunto De Banheiro Em Vidro Lyor 3 Peças - Diamante Prata",
@@ -339,7 +376,8 @@
         "loja": "havan",
         "categoria": "decoracao",
         "preco": "R$ 59,99",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     },
     {
         "name": "Jogo Pano de Copa Chef 2 Pçs, Teka, Bordo e Branco",
@@ -348,6 +386,7 @@
         "loja": "amazon",
         "categoria": "decoracao",
         "preco": "R$ 29,45",
-        "aberto": true
+        "aberto": true,
+        "favorito": false
     }
 ]

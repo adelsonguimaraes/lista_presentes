@@ -7,7 +7,7 @@ const lojas = {
 
 let produtos = [];
 
-function copiarCodigoPix (event) {
+function copiarCodigoPix(event) {
     const input = document.createElement('textarea');
     input.value = "00020126630014BR.GOV.BCB.PIX0111986659522680226Casamento Raquel & Adelson520400005303986540550.005802BR5925Adelson Guimaraes Monteir6009SAO PAULO62140510QPAMyRPUkj6304F84B";
     document.body.appendChild(input);
@@ -26,19 +26,19 @@ function copiarCodigoPix (event) {
     }, 2000);
 }
 
-function listarLojas () {
+function listarLojas() {
     const listaLojas = document.querySelector('ul.lista-lojas');
     Object.values(lojas).forEach(loja => {
         const li = document.createElement('li');
         const img = document.createElement('img');
-        img.src =  loja;
+        img.src = loja;
 
         li.append(img);
         listaLojas.append(li);
     });
 }
 
-function listarPorCategoria (categoria, event) {
+function listarPorCategoria(categoria, event) {
 
     const ul = document.querySelector('ul.list-items');
     if (!ul) return false;
@@ -48,7 +48,11 @@ function listarPorCategoria (categoria, event) {
     let filtrados = produtos.filter(item => item.aberto);
 
     if (categoria !== 'todos') {
-        filtrados = filtrados.filter(item => item.categoria === categoria);
+        if (categoria === 'favoritos') {
+            filtrados = filtrados.filter(item => item.favorito);
+        } else {
+            filtrados = filtrados.filter(item => item.categoria === categoria);
+        }
     }
 
     if (event) {
@@ -57,7 +61,7 @@ function listarPorCategoria (categoria, event) {
     }
 
     filtrados.forEach(item => {
-                
+
         const li = document.createElement('li');
         const a = document.createElement('a');
         const card = document.createElement('div');
@@ -69,17 +73,17 @@ function listarPorCategoria (categoria, event) {
         const preco = document.createElement('span');
 
         card.classList.add('card');
-        
+
         cardName.classList.add('name');
         cardName.textContent = item.name;
-        
+
         cardImage.classList.add('image');
         image.src = item.image;
         cardImage.append(image);
 
         cardRodape.classList.add('rodape');
         cardRodape.textContent = item.description;
-        
+
         loja.src = lojas[item.loja];
         loja.classList.add('loja_icon');
         cardRodape.append(loja);
@@ -88,10 +92,17 @@ function listarPorCategoria (categoria, event) {
         preco.classList.add('preco');
         cardRodape.append(preco);
 
+        if (item.favorito) {
+            const favorito = document.createElement('div');
+            favorito.textContent = '🔥';
+            favorito.classList.add('favorito');
+            cardRodape.append(favorito);
+        }
+
         card.append(cardName);
         card.append(cardImage);
         card.append(cardRodape);
-        
+
         a.append(card);
         a.href = item.link;
         a.target = 'blank';
@@ -103,7 +114,7 @@ function listarPorCategoria (categoria, event) {
 }
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
 
     listarLojas();
 
@@ -111,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(products => {
             produtos = products;
-            listarPorCategoria('todos');
+            listarPorCategoria('favoritos');
         })
         .catch(error => {
             console.error('Erro ao carregar o JSON:', error);
