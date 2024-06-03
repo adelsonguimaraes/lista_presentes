@@ -136,7 +136,7 @@
         "loja": "amazon",
         "categoria": "loucas",
         "preco": "R$ 130,44",
-        "aberto": true,
+        "aberto": false,
         "favorito": false
     },
     {
@@ -146,7 +146,7 @@
         "loja": "havan",
         "categoria": "loucas",
         "preco": "R$ 149,99",
-        "aberto": true,
+        "aberto": false,
         "favorito": false
     },
     {
