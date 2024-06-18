@@ -236,7 +236,7 @@
         "loja": "amazon",
         "categoria": "eletrodomestico",
         "preco": "R$ 69,52",
-        "aberto": true,
+        "aberto": false,
         "favorito": true
     },
     {
@@ -246,7 +246,7 @@
         "loja": "amazon",
         "categoria": "eletrodomestico",
         "preco": "R$ 100,89",
-        "aberto": true,
+        "aberto": false,
         "favorito": false
     },
     {
@@ -256,7 +256,7 @@
         "loja": "bemol",
         "categoria": "eletrodomestico",
         "preco": "R$ 134,00",
-        "aberto": true,
+        "aberto": false,
         "favorito": false
     },
     {
@@ -266,7 +266,7 @@
         "loja": "havan",
         "categoria": "eletrodomestico",
         "preco": "R$ 99,99",
-        "aberto": true,
+        "aberto": false,
         "favorito": false
     },
     {
